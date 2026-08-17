@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>About Us | SM Optic Labs</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+
+    <!-- HEADER -->
+
+    <header class="header">
+
+        <div class="container header-inner">
+
+            <a href="index.html" class="logo-area">
+
+                <img src="images/logo.png" alt="SM Optic Logo">
+
+                <div>
+
+                    <h2>SM OPTIC LABS</h2>
+
+                    <span>
+                        Hologram Technology
+                    </span>
+
+                </div>
+
+            </a>
+
+
+            <div class="header-contact">
+
+                <div class="header-info">
+
+                    <span class="info-icon">📅</span>
+
+                    <div>
+                        <small>DATE & TIME</small>
+
+                        <strong id="dateTime">
+                            Loading...
+                        </strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="header-info">
+
+                <span class="info-icon">
+                    📞
+                </span>
+
+                <div>
+
+                    <small>
+                        CALL US
+                    </small>
+
+                    <strong>
+                        +91 95606 21357
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <div class="header-info">
+
+                <span class="info-icon">
+                    ✉
+                </span>
+
+                <div>
+
+                    <small>
+                        EMAIL
+                    </small>
+
+                    <strong>
+                        smopticlabs@gmail.com
+                    </strong>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <button class="menu-toggle" id="menuToggle">
+
+            ☰
+
+        </button>
+
+        </div>
+
+
+        <nav class="navbar" id="navbar">
+
+            <div class="container nav-inner">
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <a href="products.html">
+                    Products
+                </a>
+
+                <a href="about.html" class="active">
+                    About Us
+                </a>
+
+                <a href="#contact">
+                    Contact Us
+                </a>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <!-- PAGE HERO -->
+
+    <section class="page-hero">
+
+        <div class="container">
+
+            <span>
+                ABOUT SM OPTIC
+            </span>
+
+            <h1>
+                Technology Built
+                <strong>For Security</strong>
+            </h1>
+
+            <p>
+                Precision hologram master solutions
+                with a focus on quality and innovation.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+
+    <section class="about-company section">
+
+        <div class="container about-grid">
+
+
+            <div class="about-slideshow">
+
+                <div class="about-slide active">
+
+                    <img src="images/about1.jpg" alt="SM Optic">
+
+                </div>
+
+                <div class="about-slide">
+
+                    <img src="images/about2.jpg" alt="Hologram Technology">
+
+                </div>
+
+                <div class="about-slide">
+
+                    <img src="images/about3.jpg" alt="Hologram Manufacturing">
+
+                </div>
+
+                <div class="about-dots">
+
+                    <button onclick="showAboutSlide(0)" class="about-dot active">
+                    </button>
+
+                    <button onclick="showAboutSlide(1)" class="about-dot">
+                    </button>
+
+                    <button onclick="showAboutSlide(2)" class="about-dot">
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="about-text">
+
+                <span class="section-label">
+                    ABOUT COMPANY
+                </span>
+
+                <h2>
+                    About
+                    <strong>SM Optic</strong>
+                </h2>
+
+
+                <p>
+                    SM Optic is focused on providing advanced
+                    hologram master solutions for security,
+                    authentication and optical applications.
+                </p>
+
+
+                <p>
+                    Our expertise covers 2D/3D hologram masters,
+                    standard dotmatrix hologram masters and
+                    high-security hologram masters.
+                </p>
+
+
+                <p>
+                    We believe in precision, consistent quality
+                    and technology-driven solutions that help
+                    our customers create reliable and visually
+                    impressive holographic products.
+                </p>
+
+
+                <div class="about-stats">
+
+                    <div>
+
+                        <strong>3+</strong>
+
+                        <span>
+                            Hologram Technologies
+                        </span>
+
+                    </div>
+
+
+                    <div>
+
+                        <strong>100%</strong>
+
+                        <span>
+                            Quality Focus
+                        </span>
+
+                    </div>
+
+
+                    <div>
+
+                        <strong>24/7</strong>
+
+                        <span>
+                            Enquiry Support
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- VALUES -->
+
+    <section class="values section">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <span>
+                    OUR VALUES
+                </span>
+
+                <h2>
+                    What Drives
+                    <strong>Our Work</strong>
+                </h2>
+
+            </div>
+
+
+            <div class="value-grid">
+
+
+                <div class="value-card">
+
+                    <div class="value-icon">
+                        ✦
+                    </div>
+
+                    <h3>
+                        Precision
+                    </h3>
+
+                    <p>
+                        We focus on accurate optical details
+                        and consistent hologram master quality.
+                    </p>
+
+                </div>
+
+
+                <div class="value-card">
+
+                    <div class="value-icon">
+                        ◈
+                    </div>
+
+                    <h3>
+                        Innovation
+                    </h3>
+
+                    <p>
+                        We continuously work with modern
+                        holographic techniques and technologies.
+                    </p>
+
+                </div>
+
+
+                <div class="value-card">
+
+                    <div class="value-icon">
+                        ◎
+                    </div>
+
+                    <h3>
+                        Reliability
+                    </h3>
+
+                    <p>
+                        Our objective is to provide dependable
+                        solutions for demanding applications.
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+
+    <section class="contact-section section" id="contact">
+
+        <div class="container">
+
+
+            <div class="section-heading left">
+
+                <span>
+                    GET IN TOUCH
+                </span>
+
+                <h2>
+                    Contact
+                    <strong>Us</strong>
+                </h2>
+
+                <p>
+                    Have a hologram master requirement?
+                    Contact our team.
+                </p>
+
+            </div>
+
+
+            <div class="contact-grid">
+
+
+                <!-- CONTACT DETAILS -->
+
+                <div class="contact-details">
+
+
+                    <div class="contact-card">
+
+                        <div class="contact-icon">
+                            📞
+                        </div>
+
+                        <div>
+
+                            <span>
+                                PHONE
+                            </span>
+
+                            <h4>
+                                +91 95606 21357
+                            </h4>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-card">
+
+                        <div class="contact-icon">
+                            ✉
+                        </div>
+
+                        <div>
+
+                            <span>
+                                EMAIL
+                            </span>
+
+                            <h4>
+                                smopticlabs@gmail.com
+                            </h4>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-card">
+
+                        <div class="contact-icon">
+                            ⏰
+                        </div>
+
+                        <div>
+
+                            <span>
+                                WORKING HOURS
+                            </span>
+
+                            <h4>
+                                Monday – Saturday
+                            </h4>
+
+                            <p>
+                                10:00 AM – 6:00 PM
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-card">
+
+                        <div class="contact-icon">
+                            📍
+                        </div>
+
+                        <div>
+
+                            <span>
+                                ADDRESS
+                            </span>
+
+                            <h4>
+                                SM Optic Labs
+                            </h4>
+
+                            <p>
+                                Sudarshan Park Moti Nagar New Delhi
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+                <!-- CONTACT FORM -->
+
+                <div class="contact-form">
+
+                    <h3>
+                        Send Us An Enquiry
+                    </h3>
+
+
+                    <form id="contactForm">
+
+                        <div class="form-row">
+
+                            <div class="form-group">
+
+                                <label>
+                                    Your Name
+                                </label>
+
+                                <input type="text" placeholder="Enter your name" required>
+
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <label>
+                                    Phone
+                                </label>
+
+                                <input type="tel" placeholder="Enter phone number" required>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label>
+                                Email
+                            </label>
+
+                            <input type="email" placeholder="Enter email address" required>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label>
+                                Product
+                            </label>
+
+                            <select>
+
+                                <option>
+                                    Select Product
+                                </option>
+
+                                <option>
+                                    2D / 3D Hologram Master
+                                </option>
+
+                                <option>
+                                    Standard Dotmatrix Hologram Master
+                                </option>
+
+                                <option>
+                                    High Security Hologram Master
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label>
+                                Message
+                            </label>
+
+                            <textarea rows="5" placeholder="Tell us about your requirement..." required>
+                        </textarea>
+
+                        </div>
+
+
+                        <button type="submit" class="btn btn-primary">
+
+                            Send Enquiry →
+
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+
+        <div class="container footer-grid">
+
+            <div>
+
+                <div class="footer-logo">
+
+                    <img src="images/logo.png" alt="SM Optic">
+
+                    <h3>
+                        SM OPTIC
+                    </h3>
+
+                </div>
+
+                <p>
+                    Advanced hologram master solutions
+                    for security and optical applications.
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h4>
+                    QUICK LINKS
+                </h4>
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <a href="products.html">
+                    Products
+                </a>
+
+                <a href="about.html">
+                    About Us
+                </a>
+
+                <a href="#contact">
+                    Contact Us
+                </a>
+
+            </div>
+
+
+            <div>
+
+                <h4>
+                    CONTACT
+                </h4>
+
+                <p>
+                    📞 +91 95606 21357
+                </p>
+
+                <p>
+                    ✉ smopticlabs@gmail.com
+                </p>
+
+                <p>
+                    📍 Sudarshan Park Moti Nagar New Delhi - 110015, India
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="copyright">
+
+            © <span id="year"></span>
+            SM Optic Labs. All Rights Reserved.
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

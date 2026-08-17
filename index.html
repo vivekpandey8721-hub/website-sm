@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SM Optic Labs| Hologram Master</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <div class="container header-inner">
+
+            <a href="index.html" class="logo-area">
+
+                <img src="images/logo.png" alt="SM Optic Logo">
+
+                <div>
+                    <h2>SM OPTIC LABS</h2>
+                    <span>Hologram Master Technology</span>
+                </div>
+
+            </a>
+
+
+            <div class="header-contact">
+
+                <div class="header-info">
+
+                    <span class="info-icon">📅</span>
+
+                    <div>
+                        <small>DATE & TIME</small>
+
+                        <strong id="dateTime">
+                            Loading...
+                        </strong>
+                    </div>
+
+                </div>
+
+
+                <div class="header-info">
+                    <span class="info-icon">📞</span>
+
+                    <div>
+                        <small>CALL US</small>
+                        <strong>+91 95606 21357</strong>
+                    </div>
+                </div>
+
+
+                <div class="header-info">
+                    <span class="info-icon">✉</span>
+
+                    <div>
+                        <small>EMAIL</small>
+                        <strong>smopticlabs@gmail.com</strong>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <button class="menu-toggle" id="menuToggle">
+                ☰
+            </button>
+
+        </div>
+
+
+        <nav class="navbar" id="navbar">
+
+            <div class="container nav-inner">
+
+                <a href="index.html" class="active">Home</a>
+
+                <a href="products.html">Products</a>
+
+                <a href="about.html">About Us</a>
+
+                <a href="about.html#contact">Contact Us</a>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero">
+
+        <div class="hero-slides">
+
+            <div class="hero-slide active" style="background-image:url('images/3d-hologram-sticker-2.jpg')">
+            </div>
+
+            <div class="hero-slide" style="background-image:url('images/R.jpg')">
+            </div>
+
+            <div class="hero-slide" style="background-image:url('images/Untitled-design-9.png')">
+            </div>
+
+        </div>
+
+
+        <div class="hero-overlay"></div>
+
+
+        <div class="container hero-content">
+
+            <div class="hero-badge">
+                ADVANCED HOLOGRAM TECHNOLOGY
+            </div>
+
+            <h1>
+                HOLOGRAM
+                <span>MASTER</span>
+            </h1>
+
+            <p>
+                Precision hologram master solutions for
+                security, authentication and premium
+                optical applications.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="products.html" class="btn btn-primary">
+                    Explore Products
+                </a>
+
+                <a href="about.html#contact" class="btn btn-outline">
+                    Contact Us
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="slider-dots">
+
+            <button class="dot active" onclick="showSlide(0)"></button>
+
+            <button class="dot" onclick="showSlide(1)"></button>
+
+            <button class="dot" onclick="showSlide(2)"></button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= INTRO ================= -->
+
+    <section class="intro section">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <span>OUR EXPERTISE</span>
+
+                <h2>
+                    Hologram Master
+                    <strong>Solutions</strong>
+                </h2>
+
+                <p>
+                    We provide precision-engineered hologram masters
+                    designed for high-quality optical reproduction,
+                    security applications and advanced authentication.
+                </p>
+
+            </div>
+
+
+            <!-- ================= PRODUCTS ================= -->
+
+            <div class="product-grid">
+
+
+                <!-- PRODUCT 1 -->
+
+                <article class="product-card">
+
+                    <div class="product-image">
+
+                        <img src="images/3d-hologram-sticker-2.jpg" alt="2D 3D Hologram Master">
+
+                        <div class="product-number">
+                            01
+                        </div>
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <span class="product-tag">
+                            TYPE 01
+                        </span>
+
+                        <h3>
+                            2D / 3D Hologram Master
+                        </h3>
+
+                        <p>
+                            High-quality 2D and 3D hologram master
+                            solutions with precise optical depth
+                            and detailed visual effects.
+                        </p>
+
+                        <a href="products.html?product=2d3d" class="read-more">
+
+                            View Specifications
+                            <span>→</span>
+
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCT 2 -->
+
+                <article class="product-card">
+
+                    <div class="product-image">
+
+                        <img src="images/R.jpg" alt="Standard Dotmatrix Hologram Master">
+
+                        <div class="product-number">
+                            02
+                        </div>
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <span class="product-tag">
+                            TYPE 02
+                        </span>
+
+                        <h3>
+                            Standard Dotmatrix
+                            Hologram Master
+                        </h3>
+
+                        <p>
+                            Precision dotmatrix masters suitable
+                            for high-resolution holographic
+                            reproduction and security applications.
+                        </p>
+
+                        <a href="products.html?product=dotmatrix" class="read-more">
+
+                            View Specifications
+                            <span>→</span>
+
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCT 3 -->
+
+                <article class="product-card">
+
+                    <div class="product-image">
+
+                        <img src="images/Untitled-design-9.png" alt="High Security Hologram Master">
+
+                        <div class="product-number">
+                            03
+                        </div>
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <span class="product-tag">
+                            TYPE 03
+                        </span>
+
+                        <h3>
+                            High Security
+                            Hologram Master
+                        </h3>
+
+                        <p>
+                            Advanced security hologram masters
+                            developed for anti-counterfeit and
+                            authentication applications.
+                        </p>
+
+                        <a href="products.html?product=security" class="read-more">
+
+                            View Specifications
+                            <span>→</span>
+
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= WHY US ================= -->
+
+    <section class="why-us section">
+
+        <div class="container">
+
+            <div class="why-grid">
+
+                <div>
+
+                    <span class="section-label">
+                        WHY SM OPTIC
+                    </span>
+
+                    <h2>
+                        Precision.
+                        <br>
+                        Security.
+                        <br>
+                        <span>Innovation.</span>
+                    </h2>
+
+                </div>
+
+
+                <div class="why-content">
+
+                    <p>
+                        Our hologram master solutions combine
+                        precision optical technology with
+                        quality-focused manufacturing.
+                    </p>
+
+
+                    <div class="feature-list">
+
+                        <div class="feature">
+                            <div class="feature-icon">✦</div>
+
+                            <div>
+                                <h4>High Precision</h4>
+                                <p>
+                                    Detailed optical masters
+                                    engineered for accurate reproduction.
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="feature">
+                            <div class="feature-icon">◈</div>
+
+                            <div>
+                                <h4>Security Focused</h4>
+                                <p>
+                                    Solutions suitable for
+                                    authentication and anti-counterfeit
+                                    applications.
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="feature">
+                            <div class="feature-icon">◎</div>
+
+                            <div>
+                                <h4>Advanced Technology</h4>
+                                <p>
+                                    Modern holographic technologies
+                                    for demanding applications.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CTA ================= -->
+
+    <section class="cta">
+
+        <div class="container cta-inner">
+
+            <div>
+
+                <span>
+                    HAVE A REQUIREMENT?
+                </span>
+
+                <h2>
+                    Let's Create
+                    <strong>Something Secure.</strong>
+                </h2>
+
+            </div>
+
+
+            <a href="about.html#contact" class="btn btn-primary">
+
+                Get In Touch →
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="container footer-grid">
+
+            <div>
+
+                <div class="footer-logo">
+                    <img src="images/logo.png" alt="SM Optic">
+                    <h3>SM OPTIC</h3>
+                </div>
+
+                <p>
+                    Advanced hologram master solutions
+                    for security and optical applications.
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h4>QUICK LINKS</h4>
+
+                <a href="index.html">Home</a>
+                <a href="products.html">Products</a>
+                <a href="about.html">About Us</a>
+                <a href="about.html#contact">Contact Us</a>
+
+            </div>
+
+
+            <div>
+
+                <h4>CONTACT</h4>
+
+                <p>📞 +91 95606 21357</p>
+                <p>✉ smopticlabs@gmail.com</p>
+                <p>📍 Sudarshan Park Moti Nagar New Delhi - 110015, India</p>
+
+            </div>
+
+        </div>
+
+
+        <div class="copyright">
+
+            © <span id="year"></span>
+            SM Optic Labs. All Rights Reserved.
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
